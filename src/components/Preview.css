@@ -1,0 +1,44 @@
+.preview-container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+
+.image-box{
+    width: 50%;
+    height: 100%;
+}
+
+
+.preview-listing{
+    width: 50%;
+    height: 100%;
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.preview-listing h2{
+    display: table;
+    margin: auto;
+}
+
+.preview-listing p {
+    padding: 14px;
+}
+
+.preview-listing button{
+    border:none;
+    display: block;
+    margin: auto;
+    background-color: #f9ca24;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+
